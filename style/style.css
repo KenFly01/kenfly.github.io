@@ -1,0 +1,165 @@
+
+* {
+    margin: 0; /* Убираем отступы по умолчанию */
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 5px 0;
+    background-color: #00000051;
+    display: flex;
+    justify-content:space-between;
+    border-bottom: 2px solid #c9c9c9;
+}
+
+header img {
+    padding: 0 50px;
+    height: 50px;
+}
+
+header nav {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 50%;
+}
+
+header nav ul {
+    list-style:none;
+    justify-items: center;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 25px;
+}
+
+header nav ul li a {
+    color:rgb(255, 255, 255);
+}
+
+header nav ul li a:hover {
+    border-bottom: 5px solid green;
+}
+
+.cont {
+    margin: 0 50px 0 0;
+}
+
+.cont img {
+    padding: 0 10px;
+    height: 50px;
+}
+
+.hero_hor {
+    display: flex;
+    justify-content: space-around;
+    height: 480px;
+    position: relative;
+}
+
+.hero_left {
+    width: 20%;
+    height: 800px;
+    display: flex;
+    justify-content: space-around;
+    background-image: url("../img/left-shadow.png");
+    background-repeat: no-repeat;
+    background-size: 180% 130%; /* Увеличивает изображение */
+    background-position: right;
+    position: absolute;
+    top:-160px;
+    left: 0px;
+}
+
+.hero_middle {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+
+.hero_right {
+    width: 20%;
+    height: 800px;
+    display: flex;
+    justify-content: space-around;
+    background-image: url("../img/left-shadow.png");
+    background-repeat: no-repeat;
+    background-size: 180% 130%; /* Увеличивает изображение */
+    position: absolute;
+    top:-160px;
+    right: 0px;
+}
+
+.hero_top {
+    height: 160px;
+    display: flex;
+    justify-content: space-around;
+    background-image: url("../img/down-shadow.png");
+    background-repeat: no-repeat;
+    background-size: 150% 130%; /* Увеличивает изображение */
+    background-position: center -75px; /* Центрирует изображение */
+}
+
+.hero_bottom {
+    height: 160px;
+    display: flex;
+    justify-content: space-around;
+    background-image: url("../img/down-shadow.png");
+    background-repeat: no-repeat;
+    background-size: 150% 130%; /* Увеличивает изображение */
+    background-position: center 50px; /* Центрирует изображение */
+}
+
+.hero_container {
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+    background-image: url("../img/background_main.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100% 100%; /* Увеличивает изображение */
+}
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px; /* Скруглённые углы */
+    font-size: 16px;
+    width: 200px; /* Настраивайте по необходимости */
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1); /* Небольшая тень */
+  }
+
+  button {
+    background-color: #FA9021;
+    color:white;
+    font-size: 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px; /* Скруглённые углы */
+    transition: all 500ms ease;
+    border: 0px;
+  }
+
+  button:hover {
+    background-color: #DC7000;
+  }
