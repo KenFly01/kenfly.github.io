@@ -6,6 +6,7 @@
 
 body {
     background-color: black;
+    width: 100%;
 }
 
 a {
@@ -131,8 +132,26 @@ header nav ul li a:hover {
     background-position: center 50px; /* Центрирует изображение */
 }
 
+@media (max-width: 767px) {
+    /* Стили для смартфонов */
+
+    .container{
+        display: none;
+    }
+
+    .hero_hor {
+        width: 100%;
+    }
+
+    .hero_container {
+        background-image: url("../img/mononysha.png");
+        width: 100%;
+    }
+
+  }
+
 .hero_container {
-    width: 1200px;
+    width: 80%;
     height: 800px;
     margin: 0 auto;
     background-image: url("../img/background_main.png");
